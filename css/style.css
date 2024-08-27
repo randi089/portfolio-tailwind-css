@@ -614,8 +614,8 @@ body {
   position: relative;
 }
 
-.bottom-32 {
-  bottom: 8rem;
+.-top-5 {
+  top: -1.25rem;
 }
 
 .left-0 {
@@ -636,14 +636,6 @@ body {
 
 .top-full {
   top: 100%;
-}
-
-.-top-1 {
-  top: -0.25rem;
-}
-
-.-top-5 {
-  top: -1.25rem;
 }
 
 .-z-10 {
@@ -749,12 +741,6 @@ body {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
-.scale-50 {
-  --tw-scale-x: .5;
-  --tw-scale-y: .5;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
 .transform {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
@@ -781,6 +767,10 @@ body {
 
 .self-center {
   align-self: center;
+}
+
+.overflow-hidden {
+  overflow: hidden;
 }
 
 .rounded-full {
@@ -854,6 +844,10 @@ body {
 
 .pt-36 {
   padding-top: 9rem;
+}
+
+.pt-3 {
+  padding-top: 0.75rem;
 }
 
 .text-2xl {
@@ -1007,10 +1001,8 @@ body {
 }
 
 @media (min-width: 640px) {
-  .sm\:scale-100 {
-    --tw-scale-x: 1;
-    --tw-scale-y: 1;
-    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+  .sm\:overflow-visible {
+    overflow: visible;
   }
 }
 
@@ -1070,6 +1062,10 @@ body {
 
   .lg\:pt-10 {
     padding-top: 2.5rem;
+  }
+
+  .lg\:pt-0 {
+    padding-top: 0px;
   }
 
   .lg\:text-2xl {
